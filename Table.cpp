@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std; 
 
+class Table{
+	public:
+		Table(){
+		}
+		void show(){
+		}
+		
+};
+
 int main() {
   Table tb;
   tb.show();
@@ -8,6 +17,7 @@ int main() {
   tb.show();
   tb.addColumn();
   tb.show();
+  
   Table tb1(5,5);
   tb1.show();
   tb1.set(1,1,30);
